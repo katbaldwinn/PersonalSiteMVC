@@ -1,0 +1,173 @@
+﻿<!-- /*
+* Template Name: Blogy
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Mary Kate Baldwin, Kate Baldwin" />
+	<meta name="description" content="Mary Kate Baldwin's personal site." />
+	<meta name="keywords"
+		 content="mary kate baldwin personal site, kate baldwin personal site, mary kate baldwin resume" />
+	<link rel="shortcut icon" href="/favicon.png" />
+
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+		 rel="stylesheet" />
+
+	<link rel="stylesheet" href="/blogy-1.0.0/fonts/icomoon/style.css" /> <!--blogy-1.0.0\fonts\icomoon\style.css-->
+	<link rel="stylesheet" href="/blogy-1.0.0/fonts/flaticon/font/flaticon.css" /> <!--blogy-1.0.0\fonts\flaticon\font\flaticon.css-->
+
+	<link rel="stylesheet"
+		 href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+	<link rel="stylesheet" href="/blogy-1.0.0/css/tiny-slider.css" /> <!--blogy-1.0.0\css\tiny-slider.css-->
+	<link rel="stylesheet" href="/blogy-1.0.0/css/aos.css" /> <!--blogy-1.0.0\css\aos.css-->
+	<link rel="stylesheet" href="/blogy-1.0.0/css/glightbox.min.css" /> <!--blogy-1.0.0\css\glightbox.min.css-->
+	<link rel="stylesheet" href="/blogy-1.0.0/css/style.css" /> <!--blogy-1.0.0\css\style.css-->
+
+	<link rel="stylesheet" href="/blogy-1.0.0/css/flatpickr.min.css" /> <!--blogy-1.0.0\css\flatpickr.min.css-->
+
+	<title> Home | Mary Kate Baldwin's Peronal Site </title>
+	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon"> <!--blogy-1.0.0\favicon.png-->
+</head>
+<body>
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap">
+				<div class="site-navigation">
+					<div class="row g-0 align-items-center">
+						<div class="col-2">
+							<a href="index.html" class="logo m-0 float-start">Mary Kate Baldwin<span class="text-primary">.</span></a>
+						</div>
+						<div class="col-8 text-center">
+							
+
+							<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+								<li ><a href="@Url.Action("Index", "Home")">Home</a></li>
+								<li><a href="@Url.Action("Resume", "Home")">Resume</a></li>
+								<li><a href="@Url.Action("Portfolio", "Home")">Projects</a></li>
+								<li><a href="@Url.Action("Links", "Home")">Classmates</a></li>
+								<li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	@RenderBody()
+
+
+
+	<footer class="site-footer " style="color: #f1ead3;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="widget">
+						<h3 class="mb-4">About</h3>
+						<p>
+							This is my personal site that will show the skills I have learned at Centriq Training.
+						</p>
+					</div>
+					<!-- /.widget -->
+					<div class="widget">
+						<h3>Social</h3>
+						<ul class="list-unstyled social">
+							<li>
+								<a href="#"><span class="icon-instagram"></span></a>
+							</li>
+							<li>
+								<a href="https://x.com/MaryKatBaldwin?t=DGoYCnJkp6QeZ0JYQzKF8g&s=09"><span class="icon-twitter"></span></a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/mk.baldwin.94?mibextid=ZbWKwL"><span class="icon-facebook"></span></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/kate-baldwin-940ba4195/"><span class="icon-linkedin"></span></a>
+							</li>
+							
+						</ul>
+					</div>
+					<!-- /.widget -->
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4 ps-lg-5" style="color:#f1ead3">
+					<div class="widget">
+						<h3 class="mb-4">Navigate</h3>
+						<ul class="list-unstyled float-start links">
+							<li><a href="#">About Me</a></li>
+							<li><a href="@Url.Action("Resume", "Home")">Resume</a></li>
+							<li><a href="@Url.Action("Portfolio", "Home")">Projects</a></li>
+							<li><a href="@Url.Action("Links", "Home")">Classmates</a></li>
+							<li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
+					</div>
+					<!-- /.widget -->
+				</div>
+			</div>
+			<!-- /.row -->
+
+			<div class="row mt-5">
+				<div class="col-12 text-center" style="color:#f1ead3">
+					<!--
+					  **==========
+					  NOTE:
+					  Please don't remove this copyright link unless you buy the license here https://untree.co/license/
+					  **==========
+					-->
+
+					<p>
+						Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						. All Rights Reserved. &mdash; Designed with love by
+						<a href="https://untree.co">Untree.co</a> Distributed by
+						<a href="https://themewagon.com">ThemeWagon</a>
+						<!-- License information: https://untree.co/license/ -->
+					</p>
+					<p>
+						Background Photo by <a href="https://unsplash.com/photos/a-tree-with-lots-of-pink-flowers-on-it-SdiiiDW0Vw0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tanya Pro</a> on <a href="https://unsplash.com/photos/a-tree-with-lots-of-pink-flowers-on-it-SdiiiDW0Vw0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</footer>
+	<!-- /.site-footer -->
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border text-primary" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+	<script src="/blogy-1.0.0/js/bootstrap.bundle.min.js"></script> <!--\blogy-1.0.0\js\bootstrap.bundle.min.js-->
+	<script src="/blogy-1.0.0/js/tiny-slider.js"></script> <!--\blogy-1.0.0\js\tiny-slider.js-->
+
+	<script src="/blogy-1.0.0/js/flatpickr.min.js"></script> <!--blogy-1.0.0\js\flatpickr.min.js-->
+
+	<script src="/blogy-1.0.0/js/aos.js"></script> <!--blogy-1.0.0\js\aos.js-->
+	<script src="/blogy-1.0.0/js/glightbox.min.js"></script> <!--blogy-1.0.0\js\glightbox.min.js-->
+	<script src="/blogy-1.0.0/js/navbar.js"></script> <!--blogy-1.0.0\js\navbar.js-->
+	<script src="/blogy-1.0.0/js/counter.js"></script> <!--blogy-1.0.0\js\counter.js-->
+	<script src="/blogy-1.0.0/js/custom.js"></script> <!--blogy-1.0.0\js\custom.js-->
+</body>
+</html>
